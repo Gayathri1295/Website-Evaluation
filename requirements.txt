@@ -1,0 +1,13 @@
+keras==2.15.0
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+streamlit==1.33.0
+wordcloud==1.9.3
+rake_nltk
+plotly
+streamlit==1.33.0
+matplotlib
+transformers
+torch==2.1.0
+scikit-learn
+beautifulsoup4
