@@ -1,4 +1,4 @@
-# Website Review Analysis Dashboard: A Capstone Project
+# Website Review Analysis Dashboard
 
 ## Overview
 
