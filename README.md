@@ -68,12 +68,6 @@ This section provides detailed information on each of the core features of the d
 *   **Method Implemented:** A Naive Bayes classifier was trained on TF-IDF vectorized text data. The TF-IDF vectorizer converted raw text into numerical features by calculating term frequency-inverse document frequency scores for each word. The model was trained on a labeled dataset of YouTube comments containing both spam and non-spam entries.
 *   **Key Findings:** The Naive Bayes classifier achieved an evaluation accuracy of 93%, demonstrating its effectiveness for binary classification tasks like spam detection. TF-IDF vectorization successfully captured the importance of words like "free," "click," or "subscribe," which are strong indicators of spam. Preprocessing plays a crucial role in spam detection; removing irrelevant noise (e.g., HTML tags) enhances model accuracy.
 
-### 4. Sentiment Filtering
-
-*   **Area of Exploration:** Filtering user comments based on sentiment (positive, neutral, negative) was explored to enable targeted analysis of specific feedback categories.
-*   **Method Implemented:** Sentiment filtering was implemented as an interactive feature within the Streamlit dashboard. User comments were categorized into sentiment classes using predictions from the fine-tuned RoBERTa model. Filters were created to allow users to view comments belonging to specific sentiment categories dynamically.
-*   **Key Findings:** Sentiment filtering streamlined the analysis process by allowing users to focus on specific types of feedback. Positive comments often highlighted strengths (e.g., "great service"), while negative comments pointed out issues (e.g., "slow response time"), making it easier to identify actionable insights. Interactive filtering improved user engagement with the dashboard.
-
 ### 5. Website Rating
 
 *   **Area of Exploration:** Developing an aggregate rating system based on sentiment analysis results was explored to provide a high-level metric summarizing website performance.
